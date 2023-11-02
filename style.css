@@ -1,0 +1,47 @@
+/* StyleSheet */
+
+#background {
+  background-image: url("images/p-b.jpeg");
+  background-size: cover;
+}
+
+a {
+  color: whitesmoke;
+  font-family: monospace;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+a:hover {
+  text-shadow: -1px -1px 2px whitesmoke;
+}
+
+#card-image {
+  display: block;
+  align-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: auto;
+  max-width: 200px;
+}
+
+#cardbackground {
+  background-color: whitesmoke;
+  border-radius: 55px;
+  padding-top: 20px;
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  #background {
+    background-image: url("images/yellowish.jpeg");
+    background-size: cover;
+  }
+}
+
+@media (min-width: 901px) {
+  #background {
+    background-image: url("images/horizontal-red.jpg");
+    background-size: cover;
+  }
+}
